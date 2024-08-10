@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.light-section{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.dark-section {
+    background-color: #282e34;
+    color: white;
+}
+
+
+.image {
+    background-attachment: fixed; /* this propety adding parllex effect */
+    background-size: cover;
+}
+
+
+
+.first-image {
+    background-image: url(Swaraj\ Dweep.jpeg);
+    min-height: 500px;
+    
+}
+
+.second-image {
+    background-image: url(netrani-island.jpg);
+    min-height: 500px;
+    
+}
+
+.third-image {
+    background-image: url(little\ andaman.jpeg);
+    min-height: 500px;
+    
+}
+
+.fourth-image {
+    background-image: url(Munroe\ Island.jpg);
+    min-height: 500px;
+    opacity: 0.8;
+}
+
+.five-image {
+    background-image: url(barren.jpeg);
+    min-height: 500px;
+    opacity: 0.8;
+}
+
+.text-content {
+    position: relative;
+    top: 200px;
+    left: 700px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    background-color: #282e34;
+    padding: 20px;
+    color: white;
+    width: 20%;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+#pop-text{
+    position: absolute;
+    top: 10%;
+    right: 40%; 
+    font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+
